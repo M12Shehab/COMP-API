@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.StandardScalerModel","timestamp":1538946506384,"sparkVersion":"2.3.1","uid":"StandardScaler_4a5ea53baee65ce0ee2f","paramMap":{"withStd":false,"inputCol":"tf_idf","withMean":true,"outputCol":"normFeatures"}}
