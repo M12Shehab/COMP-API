@@ -7,11 +7,11 @@ import gc
 import os
 import json
 from pyspark.sql.functions import length
-# Path for spark source folder
-os.environ['SPARK_HOME']="C:/Spark/"
+## Path for spark source folder
+#os.environ['SPARK_HOME']="C:/Spark/"
 
-# Append pyspark  to Python Path
-sys.path.append("C:/Spark/python/")
+## Append pyspark  to Python Path
+#sys.path.append("C:/Spark/python/")
 
 spark = SparkSession.builder.\
     master('local[*]') \
