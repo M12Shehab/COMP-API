@@ -102,6 +102,7 @@
     <Content Include="model\stages\6_RandomForestClassifier_430a96ee30f4a674d22b\treesMetadata\part-00000-83e89096-be7e-46af-a629-058a5511da05-c000.snappy.parquet" />
     <Content Include="model\stages\6_RandomForestClassifier_430a96ee30f4a674d22b\treesMetadata\part-00001-83e89096-be7e-46af-a629-058a5511da05-c000.snappy.parquet" />
     <Content Include="model\stages\6_RandomForestClassifier_430a96ee30f4a674d22b\treesMetadata\_SUCCESS" />
+    <Content Include="web.config" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
