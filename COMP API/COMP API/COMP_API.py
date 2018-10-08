@@ -4,7 +4,6 @@ from flask import Flask, request, jsonify
 #from pyspark.ml import PipelineModel
 #import sys
 #import gc
-from os import environ
 import json
 #from pyspark.sql.functions import length
 ## Path for spark source folder
@@ -77,9 +76,4 @@ def user(name):
 	return '<h1>Hello, {0}!</h1>'.format(name)
 
 if __name__ == '__main__':
-    HOST = environ.get('SERVER_HOST', 'localhost')
-    try:
-        PORT = int(environ.get('SERVER_PORT', '5800'))
-    except ValueError:
-        PORT = 5800
-    app.run(HOST, PORT)
+    app.run()
