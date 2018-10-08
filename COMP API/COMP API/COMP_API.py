@@ -68,6 +68,7 @@ Please sent json object as
 #    return 'JSON posted'
 
 @app.route('/')
+@app.route('/home')
 def index():
     return "<h1>Project of cloud programming course</h1><br/><p>Mohammed Shehab</p> <p>Amir Farzad</p>"
 
