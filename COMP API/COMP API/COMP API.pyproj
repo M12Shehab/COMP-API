@@ -10,7 +10,7 @@
     <OutputPath>.</OutputPath>
     <Name>COMP API</Name>
     <RootNamespace>COMP API</RootNamespace>
-    <InterpreterId>Global|PythonCore|3.6</InterpreterId>
+    <InterpreterId>Global|PythonCore|3.4-32</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -24,7 +24,7 @@
     <Compile Include="COMP_API.py" />
   </ItemGroup>
   <ItemGroup>
-    <InterpreterReference Include="Global|PythonCore|3.6" />
+    <InterpreterReference Include="Global|PythonCore|3.4-32" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="model\" />
