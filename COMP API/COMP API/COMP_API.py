@@ -6,7 +6,7 @@ from flask import Flask, request, jsonify
 #import gc
 #import os
 import json
-from pyspark.sql.functions import length
+#from pyspark.sql.functions import length
 ## Path for spark source folder
 #os.environ['SPARK_HOME']="C:/Spark/"
 
@@ -76,5 +76,5 @@ def index():
 def user(name):
 	return '<h1>Hello, {0}!</h1>'.format(name)
 
-if __name__ == '__main__':
-    app.run(port =5800, debug=True)
+#if __name__ == '__main__':
+#    app.run(port =5800, debug=True)
